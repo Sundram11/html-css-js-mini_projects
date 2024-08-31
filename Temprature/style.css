@@ -1,0 +1,71 @@
+body {
+    height: 100vh;
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    border: solid 5px black;
+    
+    background-color: hsl(36, 80%, 52%);
+    border-radius: 10px;
+    
+}
+
+h2{
+        margin-left: 20px;
+        color: beige;
+}
+
+#screen {
+    height: 2em;
+    width: 70%;
+    border: solid 2px black;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin-left: 20px;
+
+}
+
+.radiobtn{
+    margin: 8px 0;
+    column-gap: 5px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#convert {
+    margin-left: 30%;
+    padding: 6px 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: bisque;
+    background-color: hsl(261, 59%, 48%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#convert:hover {
+    background-color: hsl(261, 59%, 28%);
+}
+
+#convert:active {
+    transform: scale(0.95);
+}
+
+#display {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 1.5em;
+    
+}
+
+
