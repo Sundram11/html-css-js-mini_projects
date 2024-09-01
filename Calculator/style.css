@@ -1,0 +1,78 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    width: 400px;
+    height: 620px;
+    border: solid 5px black;
+    border-radius: 15px;
+    box-shadow: 2px 3px 5px;
+    background-color: hsl(0, 0%, 40%);
+
+
+}
+
+h3 {
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    height: 70%;
+    margin: 10px;
+    padding: 10px;
+}
+
+button:nth-of-type(17){
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+ 
+
+
+button {
+    height: 80px;
+    width: 80px;
+    border-radius: 15%;
+    border: none;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: hsl(180, 100%, 97%);
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: hsl(180, 100%, 67%);
+}
+
+button:active {
+    transform: scale(.90);
+}
+
+#screen {
+    display: flex;
+    height: 60px;
+    width: 350px;
+    margin: 20px ;
+    margin-top: 1px;
+    font-size: 2.5rem;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+    background-color: hsl(180, 100%, 97%);
+    border-radius: 8px;
+    border: solid 2px hsl(0, 0%, 20%);
+    
+
+}
